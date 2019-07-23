@@ -1,0 +1,13 @@
+name: EmbeddedBrowser
+options:
+  bundleIdPrefix: com.example
+  deploymentTarget:
+    iOS: "11.0"
+targets:
+  EmbeddedBrowser:
+    type: application
+    platform: iOS
+    sources: [EmbeddedBrowser]
+    settings:
+      base:
+        SWIFT_VERSION: 5.0
